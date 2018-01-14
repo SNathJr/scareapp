@@ -41,7 +41,7 @@ body {
  background-image:url(./bg.png);
 }
 
-.p1 {
+.p1, .p3 {
     margin-left: 7px;
     border-radius: 10px 10px 10px 0;
     text-align: justify;
@@ -87,6 +87,13 @@ body {
     color: blue;
     text-align: right;
     content: "Jessica07";
+}
+
+.p3:before {
+    display: block;
+    color: red;
+    text-align: left;
+    content: "SarahJ8";
 }
 
 .goback {
