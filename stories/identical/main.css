@@ -104,3 +104,41 @@ body {
     transform: scale(-1, 1);
     filter: FlipH;
 }
+
+
+/*******************************************
+            Responsive CSS
+*******************************************/
+
+@media screen and (min-width: 640px) {
+    body {
+        margin: 0 20%;
+        box-shadow: 0 1px 0 0 rgba(0,0,0,.05);
+        background-size: contain;
+    }
+    .nav {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        margin: 0 25%;
+        box-shadow: 0 1px 0 0 rgba(0,0,0,.05);
+        background-size: contain;
+    }
+    .nav {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    body {
+        margin: 0 30%;
+        box-shadow: 0 1px 0 0 rgba(0,0,0,.05);
+        background-size: contain;
+    }
+    .nav {
+        width: 40%;
+    }
+}
