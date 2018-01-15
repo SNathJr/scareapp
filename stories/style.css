@@ -63,13 +63,6 @@ body {
     background-color: #ece5dd;
 }
 
-.p1:before {
-    display: block;
-    color: red;
-    text-align: left;
-    content: "Mom";
-}
-
 .p2 {
     margin-right: 7px;
     border-radius: 10px 10px 0 10px;
@@ -80,13 +73,6 @@ body {
     float: right;
     clear: both;
     background-color: #dcf8c6;
-}
-
-.p2:before {
-    display: block;
-    color: blue;
-    text-align: right;
-    content: "Margaret";
 }
 
 .goback {
