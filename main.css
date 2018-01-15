@@ -29,17 +29,10 @@ a, a:hover {
     float: right;
 }
 
-.nav {
-    display: inline-block;
-    position: fixed;
-    top: 0;
-    color: #fff;
-    background-color: #075e54;
-}
-
 nav ul {
     list-style: none;
-    margin-top: 55px;
+    margin-top: -55px;
+    position: fixed;
     padding: 0;
     width: 100%;
     text-align: center;
@@ -55,6 +48,10 @@ nav li {
 
 .selected {
     border-bottom: 5px solid #fff;
+}
+
+.list {
+    margin-top: 110px;
 }
 
 .item {
