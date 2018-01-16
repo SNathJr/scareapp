@@ -5,7 +5,7 @@
 .nav {
     display: inline-block;
     margin: 0;
-    border-bottom: 10px solid #075e54;
+    border-bottom: 5px solid #075e54;
     position: fixed;
     top: 0;
     width: 100%;
@@ -64,6 +64,18 @@ body {
 }
 
 .p2 {
+    margin-right: 7px;
+    border-radius: 10px 10px 0 10px;
+    text-align: justify;
+    padding: 7px 20px;
+    margin-bottom: 5px;
+    margin-left: 20%;
+    float: right;
+    clear: both;
+    background-color: #dcf8c6;
+}
+
+.p3 {
     margin-right: 7px;
     border-radius: 10px 10px 0 10px;
     text-align: justify;
